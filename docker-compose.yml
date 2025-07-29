@@ -3,7 +3,7 @@ services:
     container_name: postgres-spring-boot
     image: postgres:latest
     environment:
-      POSTGRES_USER: localhost
+      POSTGRES_USER: ariqaziz
       POSTGRES_PASSWORD: password
       PGDATA: /data/postgres
     volumes:
