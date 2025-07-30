@@ -15,3 +15,16 @@ Content-Type: application/json
   "name": "Zizu",
   "techStack": "java, kotlin, dart"
 }
+
+###
+DELETE http://localhost:8080/api/v1/software-engineers/1
+
+###
+PUT http://localhost:8080/api/v1/software-engineers/1
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "techStack": "Java, Spring Boot, PostgreSQL"
+}
+
